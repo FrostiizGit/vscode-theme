@@ -1,0 +1,21 @@
+{
+  "name": "frostiiz-theme",
+  "displayName": "Frostiiz Theme",
+  "description": "Color theme tests",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Warlock",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Warlock-color-theme.json"
+      }
+    ]
+  }
+}
